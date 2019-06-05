@@ -2,7 +2,7 @@ import React from 'react'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import Hero from '../components/hero'
-import ArticlePreview from '../components/article-preview'
+import ProjectPreview from '../components/article-preview'
 
 class RootIndex extends React.Component {
   render() {
@@ -15,12 +15,12 @@ class RootIndex extends React.Component {
         <Helmet title={siteTitle} />
         <Hero data={author.node} />
         <div className="wrapper">
-          <h2 className="section-headline">Recent articles</h2>
+          <h2 className="section-headline">Recent projects</h2>
           <ul className="article-list">
             {posts.map(({ node }) => {
               return (
                 <li key={node.slug}>
-                  <ArticlePreview article={node} />
+                  <ProjectPreview article={node} />
                 </li>
               )
             })}

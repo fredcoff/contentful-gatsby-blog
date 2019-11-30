@@ -46,5 +46,7 @@ You can learn more about how Contentful userland is organized by visiting [our a
 
 ## Tidio Chatbot
 
-```<script src="//code.tidio.co/rffhgbsa8zjpgf6l5eoxonn3pv4rrnze.js" async>    
-</script>```
+```
+<script src="//code.tidio.co/rffhgbsa8zjpgf6l5eoxonn3pv4rrnze.js" async>    
+</script>
+```
